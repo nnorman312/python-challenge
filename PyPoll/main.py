@@ -37,14 +37,14 @@ for key in candidates.keys():
 
 # Print results
 print("Election Results")
-print("-------------------------------------")
+print("---------------------------------")
 print("Total Votes: " + str(total_votes))
-print("-------------------------------------")
+print("---------------------------------")
 for key, value in candidates.items():
     print(key + ": " + str(candidates_percent[key]) + "% (" + str(value) + ")")
-print("-------------------------------------")
+print("---------------------------------")
 print("Winner: " + winner)
-print("-------------------------------------")
+print("---------------------------------")
 
 # Export results via text file
 output = os.path.join(".", 'Election Results.txt')
