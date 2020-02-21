@@ -5,7 +5,7 @@ import csv
 # Explain path to csv
 budget_data = os.path.join("..", "Resources", "budget_data.csv")
 
-# Set variables    
+# Set lists   
 month_count = []
 profit = []
 change_profit = []
