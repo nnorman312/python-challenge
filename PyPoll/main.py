@@ -58,7 +58,7 @@ with open(output,"w") as new:
     new.write("------------------------")
     new.write("\n")
     for key, value in candidates.items():
-        new.write(key + ": " + str(candidates_percent[key]) + "% (" + str(value) + ")")
+        new.write(key + ": " + str(candidates_percent[key]) + "% (" + str(value) + ")" "\n")
     new.write("\n")
     new.write("------------------------")
     new.write("\n")
