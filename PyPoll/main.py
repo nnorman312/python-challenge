@@ -17,7 +17,6 @@ winner_count = 0
 with open(election_data) as csvfile:
     csvreader = csv.reader(csvfile, delimiter = ",")
     header = next(csvreader)
-    firstrow = next(csvreader)
     for row in csvreader:
 # Total number of votes cast and candidates who received votes
         total_votes = total_votes + 1
